@@ -5,11 +5,11 @@
 }
 header{
     height: 50px;
-    background-color: blue;
+    background-color: rgb(61, 61, 255);
     
 }
 .container{
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
 }
 .row-header{
@@ -20,21 +20,44 @@ header{
 }
 .col{
     height: 50px;
-    width: 25%;
-    background-color:aquamarine;
+    width: 40%;
     display: flex;
+
+}
+.col img{
+    padding-left: 30px;
 }
 .col-70{
     width: 70%;
     height: 100%;
-    background-color: azure;
-    border: 1px solid black; 
+    
+    
+    
 }
+ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration-line: none;
+    justify-content: space-around;
+    padding-top: 10px;
+    color: white;
+    display:none ;
+}
+
 .col-30{
     width: 30%;
     height: 100%;
-    background-color:aqua;
-    border: 1px solid black; 
+}
+button{
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    display: none;
+}
+.sandwitch{
+    padding-top: 5px;
+    padding-left: 10px;
+    color: white;
 }
 .container{
     width: 100%;
