@@ -25,8 +25,31 @@ header{
 
 }
 .col img{
+    padding-top: 5px;
     padding-left: 30px;
+    height: 40px;
 }
+.col100-text{
+    padding: 10px;
+    text-align: center;
+    line-height: 25px;
+}
+.col100-text p{
+    margin-top: 20px;
+}
+.col100-text h2{
+    color:rgb(61, 61, 255); ;
+}
+button{
+    width: 120px;
+    padding: 5px;
+    background-color:  rgb(26, 91, 255); 
+    color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: none;
+}
+
 .col-70{
     width: 70%;
     height: 100%;
@@ -48,7 +71,7 @@ ul{
     width: 30%;
     height: 100%;
 }
-button{
+.button-menu{
     padding: 10px;
     background-color: white;
     border-radius: 20px;
@@ -75,7 +98,7 @@ button{
 .col-100{
     width: 90%;
     min-height: 400px;
-    background-color:antiquewhite;
+    background-color:lightblue;
     border: 1px solid black;
     margin: 0 auto;
     margin-top: 20px;
