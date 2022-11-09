@@ -103,3 +103,40 @@ footer{
     border: 1px solid red ;
     background-color: aliceblue;
 }
+/*********************************/
+/*media query*/
+/*********************************/
+@media screen and (min-width: 768px) {
+
+    .container-card{
+        width: 100%;
+    }
+    .col66{
+        width: 65%;
+    }
+    .col33{
+        width: 33%;
+    }
+    .row{
+        justify-content: space-between;
+    }
+    .cont-white{
+        width: 100%;
+    }
+    .violet{
+        width: 100%;
+    }
+    .cont-violet{
+        width: 48%;
+    }
+    .row-about-us{
+        display: flex;
+    }
+    .cont-about-us{
+        width: 48%;
+        min-height: 400px;
+    }
+    .row-violet{
+        flex-direction: column;
+    }
+}
