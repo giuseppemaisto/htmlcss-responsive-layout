@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 75px;
+    background-color: blue;
+    
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.col{
+    height: 75px;
+    width: 25%;
+    background-color:aquamarine;
+    display: flex;
+}
+.col-75{
+    width: 75%;
+    height: 100%;
+    background-color: azure;
+    border: 1px solid black; 
+}
+.col-25{
+    width: 25%;
+    height: 100%;
+    background-color:aqua;
+    border: 1px solid black; 
+}
