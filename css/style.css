@@ -140,3 +140,45 @@ footer{
         flex-direction: column;
     }
 }
+
+@media screen and (min-width: 992px){
+    .container-card{
+        width: 100%;
+    }
+    .row-card{
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .row-violet{
+        display: flex;
+        flex-direction: row;
+    }
+    .white{
+        width: 100%;
+    }
+    .row-white{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .violet{
+        width: 100%;
+
+    }
+    .card-violet{
+        width: 75%;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .cont-violet{
+        width: 30%;
+    }
+    footer{
+        width: 100%;
+
+    }
+    .row-footer{
+        width: 50%;
+        margin: 0 auto;
+    }
+}
