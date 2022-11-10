@@ -179,6 +179,24 @@ ul{
     background-color:#9692DE;
   
 }
+.text-row{
+    text-align: center;
+    line-height: 50px;
+    font-family: sans-serif;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.text-row p{
+    text-align: center;
+    line-height: 30px;
+
+}
+.text-row h3{
+    text-align: center;
+   font-size: 30px;
+   color: #9692DE;
+    
+}
 .circle-img{
     height: 150px;
     width: 150px;
@@ -209,7 +227,41 @@ ul{
 .testimonial-3{
     background-image: url(../img/testimonial3.jpg);
 }
-
+.card{
+    background-color: white;
+    line-height: 30px;
+    padding-left: 30px;
+    padding-right:30px ;
+}
+.card-violet h2{
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+    padding:40px 50px 30px 70px;
+}
+.card h1{
+    font-size: 60px;
+    padding: 20px 0 20px 20px;
+    color: #9692DE;
+    font-family: sans-serif;
+}
+.card h3{
+    font-size: 25px;
+    padding: 10px 0 10px 10px;
+    color: #9692DE;
+    font-family: sans-serif;
+}
+.card p{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: sans-serif;
+}
+.more{
+    font-size: 15px;
+    background-color: #9692DE;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
 .col-60{
     width: 100%;
     height: 60%;
