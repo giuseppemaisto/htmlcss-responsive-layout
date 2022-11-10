@@ -124,7 +124,8 @@ ul{
 
 .violet{
     background-color: #9692DE;
-    padding-top: 10px
+    padding-top: 10px;
+    min-height: 400px;
 }
 
 .cont-violet{
@@ -233,11 +234,12 @@ ul{
     padding-left: 30px;
     padding-right:30px ;
 }
-.card-violet h2{
-    font-size: 30px;
+.violet h2{
+    font-size: 28px;
     color: white;
     font-family: sans-serif;
     padding:40px 50px 30px 70px;
+    
 }
 .card h1{
     font-size: 60px;
@@ -262,6 +264,67 @@ ul{
     margin-bottom: 30px;
     margin-left: 20px;
 }
+.cont-about-us{
+    width: 95%;
+    background-color: transparent;
+}
+.cont-about-us h1{
+    padding: 10px 0 0 20px;
+    font-size: 35px;
+    font-family: sans-serif;
+    color: #9692DE;
+}
+.cont-about-us p{
+    font-size: 15px;
+    line-height: 25px;
+    padding: 20px 10px 0 10px;
+}
+.circle-about{
+    position: relative;
+    right: 70px;
+    bottom: 40px;
+    background-image: url(../img/about.jpg);
+}
+.circle-text{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #9692DE;
+}
+.linkedin{
+    width: 200px;
+    
+}
+.get-started-text{
+    text-align: center;
+    font-size: 20px;
+    line-height: 60px;
+    font-family: sans-serif;
+}
+.get-started-text h4{
+    color: lightgray;
+}
+.get-started-text h2{
+    color: white;
+    font-size: 40px;
+}
+.get-started-text h1{
+    font-size: 60px;
+    color: white;
+    color: #F4C36F;
+    margin-top: 30px;
+    
+}
+.get-started-text p{
+    line-height: 20px;
+    color: white;
+    margin-top: 30px;
+}
+.button-get-started{
+    color:#9692DE;
+    background-color:white;
+    margin-bottom: 50px;
+}
+
 .col-60{
     width: 100%;
     height: 60%;
@@ -270,14 +333,22 @@ ul{
 .get-started{
     height: 400px
 }
+.container-violet{
+    width: 100%;
+    min-height: 300px;
+    background-color: #9692DE;
+}
+.get{
+    background-color: #9692DE;
+}
 footer{
     width: 100%;
-    height: 400px;
+    height: 300px;
     background-color: #222;
 }
 .row-footer{
     width: 75%;
-    height: 100%;
+    height: 300px;
     margin: 0 auto;
 }
 .col-footer{
@@ -358,6 +429,10 @@ footer{
         width: 100%;
 
     }
+    .violet h2{
+       text-align: center;
+
+    }
     .card-violet{
         width: 75%;
         flex-wrap: wrap;
@@ -366,9 +441,15 @@ footer{
     .cont-violet{
         width: 30%;
     }
+    .circle-img{
+        margin-left: 400px;
+    }
+    .get{
+        margin-left: 20%;
+    }
     footer{
         width: 100%;
-
+        
     }
     .row-footer{
         width: 50%;
