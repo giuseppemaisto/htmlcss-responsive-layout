@@ -18,6 +18,9 @@ header{
     justify-content: space-between;
 
 }
+ul{
+    display: none;
+}
 .col{
     height: 50px;
     width: 40%;
@@ -72,15 +75,7 @@ button{
 .menu{
     width: 300px;
 }
-ul{
-    display: flex;
-    list-style-type: none;
-    text-decoration-line: none;
-    justify-content: space-around;
-    padding-top: 10px;
-    color: white;
-    display:none ;
-}
+
 
 .col-30{
     width: 30%;
@@ -480,8 +475,12 @@ footer{
     }
     ul{
         display: flex;
-        display: block;
-        flex-direction: row;
+        list-style-type: none;
+        text-decoration-line: none;
+        justify-content: space-around;
+        padding-top: 10px;
+        color: white;
+        
     }
     .col-30{
         display: none;
