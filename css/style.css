@@ -67,10 +67,10 @@ button{
 
 .col-70{
     width: 70%;
-    height: 100%;
-    
-    
-    
+    height: 100%;   
+}
+.menu{
+    width: 300px;
 }
 ul{
     display: flex;
@@ -335,15 +335,31 @@ ul{
 }
 .container-violet{
     width: 100%;
-    min-height: 300px;
+    min-height: 500px;
     background-color: #9692DE;
 }
 .get{
     background-color: #9692DE;
 }
+.button-get{
+    background-color: white;
+    color: #9692DE;
+}
+.copyright{
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+.copyright a{
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
 footer{
     width: 100%;
-    height: 300px;
+    height: 200px;
     background-color: #222;
 }
 .row-footer{
@@ -353,9 +369,16 @@ footer{
 }
 .col-footer{
     width: 100%;
-    height: 50%;
-    border: 1px solid red ;
-    background-color: aliceblue;
+    height: 25;
+    color: white;
+
+}
+.col-footer p{
+    font-size: 10px;
+    padding-top: 30px;
+}
+.col-footer-2{
+    padding-bottom: 40px;
 }
 /*********************************/
 /*media query*/
@@ -454,6 +477,17 @@ footer{
     .row-footer{
         width: 50%;
         margin: 0 auto;
+    }
+    ul{
+        display: flex;
+        display: block;
+        flex-direction: row;
+    }
+    .col-30{
+        display: none;
+    }
+    .sandwitch{
+        display: none;
     }
 }
 
